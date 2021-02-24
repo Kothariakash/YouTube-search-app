@@ -5,7 +5,7 @@ from flask import Blueprint, render_template, current_app, request, redirect
 
 
 app = Flask(__name__)
-app.config['YOUTUBE_API_KEY']='AIzaSyCuiflk01kZC1Ypx0gxAxRlDMBbpK-mYag'
+app.config['YOUTUBE_API_KEY']='<ENTER YOUR API KEY>'
 
 
 @app.route('/', methods=['GET', 'POST'])
